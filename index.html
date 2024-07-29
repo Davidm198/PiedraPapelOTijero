@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIEDRA PAPEL O TIJERA</title>
+   <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header"></header> 
+    
+    <main>
+     <div class="ContainerTotal">
+           <div class="choiceWeapon">
+                  
+                 <div class="ContTitle">
+			     <h2> Elije tu Arma: </h2>
+			     </div>   
+                    
+                      
+               <label id="primero">    
+    
+                  <div class="Container">
+
+                    <div class="imgArma"><figure><img src="Piedra.png"></figure></div> 
+    
+                    <input type="radio" id="piedra" name="choice">
+  
+                  </div>
+ 
+               </label>
+
+               <label>    
+              
+                  <div class="Container">   
+                
+                  <div class="imgArma"><figure><img src="Papel.png"></figure></div>
+                
+                  <input type="radio" id="papel" name="choice"  >
+                
+                  </div> 
+         
+               </label>
+
+               <label>  
+    
+                  <div class="Container">
+    
+                  <div class="imgArma"><figure><img src="Tijera.png"></figure></div>
+    
+                  <input type="radio" id="tijera" name="choice">
+    
+                  </div>
+
+               </label>
+               <div class="ContJuega"><input type="submit" value="Juega!!!" id="juega"></div> 
+               
+                   
+                         
+          
+          </div> 
+          
+        <div class="choicePC inactive">              
+                   
+                  <div class="ContTitle1"><h2>La Maquina Eligió:</h2></div>  
+                  <button type="button" class="Actualizador">Reset</button>                  
+     
+         </div> 
+        
+     </div>
+     
+      </main>
+     
+     <footer>
+     </footer>
+     <script src="./main.js"></script>    
+</body>
+</html>

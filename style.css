@@ -1,0 +1,110 @@
+header {
+	width: 100%;
+	height: 50px;
+}
+.ContainerTotal {
+    display: flex;
+    justify-content: space-around;
+       
+    margin-bottom: 20px;
+}
+.Container {
+	display: flex;
+    align-content: center;
+	justify-content: space-around;
+	width: 300px;
+	height: 180px;
+	
+    		
+}
+
+label {
+	display: flex;
+	justify-content: center;
+	
+}
+
+#primero {
+	margin-top: 40px;
+}
+
+.ContTitle {
+	position: absolute;
+	
+	border: 2px solid black;
+	top: -40px;
+	right: 150px;
+	border-radius: 20px;
+	background-color: white;
+	width: 170px;
+	justify-content: center;
+	display: flex;
+}
+
+
+.ContJuega {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+
+
+
+h1 {
+    color:brown;
+}
+
+
+header {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgArma {
+	display: flex;
+	align-items: center;
+    justify-content: space-between; 
+}
+
+
+
+.imgArma figure img  {
+    height: 100px;
+    width: 100px;
+}
+
+
+.choicePC {
+    border: 2px solid black;
+	position: relative;
+
+}
+
+.choicePC div {
+   margin: 0px;
+   border: 2px solid black;
+}
+
+.choicePC div img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.choiceWeapon {
+    border: 2px solid black;
+	display: block;
+	width: 450px;
+	position: relative;
+	border-radius: 20px;
+	
+		
+}
+
+.inactive {
+    display: none;
+}

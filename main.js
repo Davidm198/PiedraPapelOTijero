@@ -5,13 +5,14 @@ const boton = document.getElementById('juega');
 const PiedraHtml = document.createElement('img');
 const TijeraHtml = document.createElement('img');
 const PapelHtml = document.createElement('img');
-const H2 = document.createElement("div");
+const H2 = document.querySelector('.ArmaEnemImg')
+
 const WeaMaq = document.querySelector('.choicePC');
 const ChoicePlayer = document.querySelector('.choiceWeapon')
 const H1 = document.createElement("h1");
-const GanasteHtml = document.createTextNode("GANASTE WEY!!!!!!!");
-const PerdisteHtml = document.createTextNode("PERDISTE CABRON!!!!!!");
-const EmpatasteHtml = document.createTextNode("NO MAMES... EMPATASTE WEY!!!");
+const GanasteHtml = document.createTextNode("GANASTE WEY!");
+const PerdisteHtml = document.createTextNode("PERDISTE CABRON!");
+const EmpatasteHtml = document.createTextNode("NO MAMES... EMPATASTE WEY!");
 const ButtonReloed = document.querySelector('.Actualizador')
 
 PiedraHtml.src = 'Piedra.png';

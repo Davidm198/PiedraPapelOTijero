@@ -6,13 +6,13 @@ const PiedraHtml = document.createElement('img');
 const TijeraHtml = document.createElement('img');
 const PapelHtml = document.createElement('img');
 const H2 = document.querySelector('.ArmaEnemImg')
-
+const Resultado = document.querySelector('.Resultado')
 const WeaMaq = document.querySelector('.choicePC');
 const ChoicePlayer = document.querySelector('.choiceWeapon')
 const H1 = document.createElement("h1");
 const GanasteHtml = document.createTextNode("GANASTE WEY!");
 const PerdisteHtml = document.createTextNode("PERDISTE CABRON!");
-const EmpatasteHtml = document.createTextNode("NO MAMES... EMPATASTE WEY!");
+const EmpatasteHtml = document.createTextNode("EMPATASTE WEY!");
 const ButtonReloed = document.querySelector('.Actualizador')
 
 PiedraHtml.src = 'Piedra.png';
@@ -44,20 +44,20 @@ function juega (per, maq) {
     if (per == maq) {
 
         H1.append(EmpatasteHtml);
-        WeaMaq.appendChild(H1);
+        Resultado.appendChild(H1);
     
 }
 
 else if ( per == 'piedra' && maq == 'papel' || per =='papel' && maq == 'tijera' || per == 'tijera' && maq == 'piedra') {
       
         H1.append(PerdisteHtml);
-        WeaMaq.appendChild(H1);
+        Resultado.appendChild(H1);
     }
 
 else if ( per == 'papel' && maq == 'piedra' || per =='tijera' && maq == 'papel' || per == 'piedra' && maq == 'tijera') {
         
     H1.append(GanasteHtml);
-    WeaMaq.appendChild(H1);
+    Resultado.appendChild(H1);
     
 }
 }
@@ -66,17 +66,17 @@ function Declara (maq){
      
     if (maq =='piedra') {
        H2.append(PiedraHtml);
-       WeaMaq.appendChild(H2);
+       
     }
 
     else if (maq =='papel') {
        H2.append(PapelHtml);
-       WeaMaq.appendChild(H2);
+       
     }
 
     else if (maq =='tijera') {
        H2.append(TijeraHtml);
-       WeaMaq.appendChild(H2);
+       
     }
 
 }

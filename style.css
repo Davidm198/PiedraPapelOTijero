@@ -84,6 +84,7 @@ header {
 	border-radius: 30px;
     height: 400px;
 	width: 400px;
+	
 }
 
 .ContTitle1 {
@@ -116,7 +117,9 @@ header {
     border: 2px solid black;
 	border-radius: 20px;
 }
-
+.ArmaEnemImg h1 {
+	text-align: center;
+}
 .choiceWeapon {
     border: 2px solid black;
 	display: block;
@@ -127,6 +130,12 @@ header {
 		
 }
 
+.Resultado{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 
 
 .inactive {
@@ -135,5 +144,5 @@ header {
 .Actualizador {
 	position: absolute;
 	bottom: 30px;
-	
+	margin-left: 170px;
 }

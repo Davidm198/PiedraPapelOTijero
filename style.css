@@ -4,8 +4,7 @@ header {
 }
 .ContainerTotal {
     display: flex;
-    justify-content: space-around;
-       
+    justify-content: space-around;       
     margin-bottom: 20px;
 }
 .Container {
@@ -114,7 +113,7 @@ header {
 .ArmaEnemImg img {
     height: 200px;
     width: 200px;
-    border: 2px solid black;
+    
 	border-radius: 20px;
 }
 .ArmaEnemImg h1 {

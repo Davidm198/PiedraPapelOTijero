@@ -1,11 +1,25 @@
-header {
-	width: 100%;
-	height: 50px;
+:root {
+    --color-azul: #1D3DDE;
+	--color-violeta: #9487C2;
+	--color-gris-oscuro: #707070;
+	--color-gris-claro: #00000029;
+	--color-fuxia: #CF3AC0;
+	--color-negro: #0D0B0B;
+	--color-amarilla: #EBBF10;
+    --fuente-principal: Comic Neue;
+    --espaciado: 16px;
 }
-.ContainerTotal {
-    display: flex;
-    justify-content: space-around;       
-    margin-bottom: 20px;
+
+
+main {
+	width: 432px;
+    height: 932px;
+	background: var(--color-azul) 0% 0% no-repeat padding-box;
+    opacity: 1;
+	display: flex;
+	flex-direction: column;	
+	align-content: space-around;
+	justify-content: space-around;
 }
 .Container {
 	display: flex;
@@ -13,7 +27,7 @@ header {
 	justify-content: space-around;
 	width: 300px;
 	height: 180px;
-	
+	font-family:var(--fuente-principal);
     		
 }
 
@@ -28,16 +42,22 @@ label {
 }
 
 .ContTitle {
-	position: absolute;
-	
-	border: 2px solid black;
-	top: -40px;
-	right: 150px;
-	border-radius: 20px;
-	background-color: white;
-	width: 170px;
-	justify-content: center;
-	display: flex;
+		
+	top: 9px;
+    left: 7px;
+    width: 415px;
+    height: 91px; 
+	font-family:var(--fuente-principal);
+	background: var(--color-fuxia) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+	margin: 7.5px;
+	margin-bottom: 0px;
+	text-align: center;
+	align-content: center;
+
 }
 
 
@@ -46,21 +66,32 @@ label {
 	align-content: center;
 	justify-content: center;
 	margin-bottom: 30px;
+	margin-top: 60px;
 }
 
-
-
+ .buttonAmarillo {top: 806px;
+	left: 116px;
+	width: 200px;
+	height: 87px;
+	background: #EBBF10 0% 0% no-repeat padding-box;
+	box-shadow: inset 10px 8px 15px #00000029;
+	border: 1px solid #8F7AD9;
+	border-radius: 25px;
+	opacity: 0.8;
+	
+	font: normal normal bold 30px/42px var(--fuente-principal);
+    letter-spacing: 0px;
+    color: #0F0E0E;
+    opacity: 1;
+	
+} 
 
 h1 {
     color:brown;
 }
 
 
-header {
 
-    display: flex;
-    justify-content: center;
-}
 
 
 .imgArma {
@@ -78,25 +109,32 @@ header {
 
 
 .choicePC {
-    border: 2px solid black;
-	position: relative;
-	border-radius: 30px;
-    height: 400px;
-	width: 400px;
-	
+top: 10px;
+left: 7px;
+width: 415px;
+height: 816px;
+background: #9487C2 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+margin: 7.5px;
 }
 
 .ContTitle1 {
 	
-	position: absolute;
-	top: -40px;
-	left: 55px;
-	width: 280px;
-	border-radius: 20px;
-	background-color: white;
-	border:2px solid black;
-	display: flex;
-	justify-content: center;
+top: 8px;
+left: 8px;
+width: 415px;
+height: 91px;
+background: #CF3AC0 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 6px #00000029;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+margin: 7.5px;
+margin-bottom: 0px;
+text-align: center;
+align-content: center;
 		
 		
 	
@@ -120,14 +158,17 @@ header {
 	text-align: center;
 }
 .choiceWeapon {
-    border: 2px solid black;
-	display: block;
-	width: 450px;
-	position: relative;
-	border-radius: 20px;
-	
-		
-}
+	top: 108px;
+    left: 7px;
+    width: 415px;
+    height: 816px;
+	background: #9487C2 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+	margin: 7.5px;
+    	
+         }
 
 .Resultado{
 	display: flex;
@@ -141,7 +182,24 @@ header {
     display: none;
 }
 .Actualizador {
-	position: absolute;
-	bottom: 30px;
-	margin-left: 170px;
+	
+	align-items: center;
+
+	top: 806px;
+	left: 116px;
+	width: 200px;
+	height: 87px;
+	background: #EBBF10 0% 0% no-repeat padding-box;
+	box-shadow: inset 10px 8px 15px #00000029;
+	border: 1px solid #8F7AD9;
+	border-radius: 25px;
+	opacity: 0.8;
+	
+	font: normal normal bold 30px/42px var(--fuente-principal);
+    letter-spacing: 0px;
+    color: #0F0E0E;
+    opacity: 1;
+	margin-left: 106px;
+    margin-top: 106px;
+	
 }

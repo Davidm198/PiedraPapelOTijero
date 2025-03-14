@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIEDRA PAPEL O TIJERA</title>
-   <link rel="stylesheet" href="style.css">
-    
+    <title>Piedea Papel o Tijera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header class="header"></header> 
+    
     
     <main>
-     <div class="ContainerTotal">
-           <div class="choiceWeapon">
-                  
-                 <div class="ContTitle">
+    
+          
+              <div class="ContTitle">
 			     <h2> Elije tu Arma: </h2>
 			     </div>   
-                    
+                
+              <div class="choiceWeapon">     
                       
                <label id="primero">    
     
@@ -54,16 +56,16 @@
                   </div>
 
                </label>
-               <div class="ContJuega"><input type="submit" value="Juega!!!" id="juega"></div> 
+               <div class="ContJuega"><input type="submit" value="Juega!!!" id="juega" class="buttonAmarillo"></div> 
                
                    
                          
           
           </div> 
-          
+          <div class="ContTitle1 inactive"><h2>La Maquina Eligió:</h2></div>
         <div class="choicePC inactive">              
                    
-                  <div class="ContTitle1"><h2>La Maquina Eligió:</h2></div>  
+                    
                   <div class="ArmaEnemImg"></div>
 			      <div class="Resultado"></div>
 			      
@@ -71,12 +73,11 @@
      
          </div> 
         
-     </div>
+     
      
       </main>
      
-     <footer>
-     </footer>
+     
      <script src="./main.js"></script>    
 </body>
 </html>

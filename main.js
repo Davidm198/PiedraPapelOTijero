@@ -14,6 +14,8 @@ const GanasteHtml = document.createTextNode("GANASTE WEY!");
 const PerdisteHtml = document.createTextNode("PERDISTE CABRON!");
 const EmpatasteHtml = document.createTextNode("EMPATASTE WEY!");
 const ButtonReloed = document.querySelector('.Actualizador')
+const Tittle1 = document.querySelector('.ContTitle')
+const Tittle2 = document.querySelector('.ContTitle1')
 
 PiedraHtml.src = 'Piedra.png';
 PapelHtml.src = 'Papel.png';
@@ -93,6 +95,8 @@ function partida() {
     console.log("la Maquina Eligió " + maq);
     WeaMaq.classList.toggle('inactive');
     ChoicePlayer.classList.add('inactive');
+    Tittle1.classList.add('inactive');
+    Tittle2.classList.toggle('inactive');
 }
 
 
